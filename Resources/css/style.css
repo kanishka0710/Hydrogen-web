@@ -379,20 +379,8 @@ h4:after {
     color: #517fa4;
 }
 
-.fa-facebook-square {
-    color: #3b5998;
-}
-
-.fa-twitter {
-    color: #55acee;
-}
-
-.fa-youtube {
-    color: #b31217;
-}
-
-.fa-github {
-    color: #211f1f;
+.logo-github {
+    color: #000;
 }
 
 .filler {
@@ -418,6 +406,17 @@ h4:after {
 
     .card {
         margin: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .card-wrapper {
+        margin: 40px 10px;
+    }
+
+    .card {
+        width: 80%;
+        height: auto;
     }
 }
 
